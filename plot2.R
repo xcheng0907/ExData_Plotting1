@@ -8,5 +8,5 @@ hpc$date_time = ymd(hpc$Date) + hms(hpc$Time)
 
 # plotting 2
 png(filename='plot2.png',width=480,height=480, units='px')
-plot(hpc$date_time, hpc$Global_active_power, type='l', ylab="Global Active Power (kilowatts)", xlab="", main="Global Active Power")
+plot(hpc$date_time, hpc$Global_active_power, type='l', ylab="Global Active Power (kilowatts)", xlab="")
 dev.off()
